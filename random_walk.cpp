@@ -108,7 +108,6 @@ void controller_process()
         MPI_Recv(&received_steps, 1, MPI_INT, MPI_ANY_SOURCE, 0,
                  MPI_COMM_WORLD, &status);
     }
-    std::cout << "Controller: All " << num_walkers
-              << " walkers have finished." << std::endl;
+    std::cout 
 
 }
